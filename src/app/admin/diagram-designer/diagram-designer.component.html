@@ -1,0 +1,38 @@
+<br/>
+<mat-accordion class="example-headers-align">
+  <mat-expansion-panel #mep="matExpansionPanel">
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        <b>Settings</b>
+      </mat-panel-title>
+      <mat-panel-description>
+        Load / Upload diagram
+        <mat-icon>edit_note</mat-icon>
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+
+    <mat-card>
+  <mat-card-content>
+  <form [formGroup]="form" (ngSubmit)="mep.expanded = false;submit()" class="loadForm">
+      <p>
+        <mat-form-field [style.width.px]="560">
+          <input type="text" matInput placeholder="Diagram Url" formControlName="url" class="urlInput">
+        </mat-form-field>
+      </p>
+      <div class="button">
+          <button mat-button color="white" type="button" (click)="clear()">Clear</button>
+          <button mat-button type="submit" color="primary">Load</button>
+        </div>
+  </form> 
+  
+  <app-drag-and-drop [multipleAllowed]= "multiple" (fileData)="fileDataReceived($event, mep)" (error)="fileReadError($event)"></app-drag-and-drop>
+  </mat-card-content>
+  </mat-card> 
+    <mat-action-row>
+      <button mat-button color="primary" (click)="mep.expanded = false;">Next</button>
+    </mat-action-row> 
+  </mat-expansion-panel>
+</mat-accordion>
+
+<div #ref class="diagram-container"></div>
+

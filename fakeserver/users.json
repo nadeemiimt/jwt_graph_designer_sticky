@@ -1,0 +1,1 @@
+{"users":[{"id":1,"name":"bruno","username":"brunos@email.com","password":"brunos","roles":["admin"]},{"id":2,"name":"nilson","username":"nilson@email.com","password":"nilson","roles":["admin","admin-dashboard"]},{"id":3,"name":"I am Admin","username":"iadmin@email.com","password":"iadmin","roles":["user","home","admin","admin-dashboard","admin-diagram","admin-form"]}]}

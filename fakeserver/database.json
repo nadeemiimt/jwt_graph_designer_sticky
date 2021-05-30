@@ -1,0 +1,46 @@
+{
+    "products":
+       [
+          {"id":1,"name":"Product001","cost":10,"quantity":1000}
+          ,{"id":2,"name":"Product002","cost":20,"quantity":2000}
+          ,{"id":3,"name":"Product003","cost":30,"quantity":3000}
+          ,{"id":4,"name":"Product004","cost":40,"quantity":4000}
+       ],
+    "orderdata":
+       [
+          {"id":1,"name":"Hydrogen","date":"01/May/2021","paymentMode":"Online","status":"delivered","orderTotal":"18.00"},
+          {"id":2,"name":"Helium","date":"01/May/2021","paymentMode":"Online","status":"shipped","orderTotal":"178.00"},
+          {"id":3,"name":"Lithium","date":"01/May/2021","paymentMode":"Online","status":"pending","orderTotal":"618.00"},
+          {"id":4,"name":"Beryllium","date":"01/May/2021","paymentMode":"Online","status":"delivered","orderTotal":"16.00"},
+          {"id":5,"name":"Boron","date":"01/May/2021","paymentMode":"Online","status":"shipped","orderTotal":"1544.00"},
+          {"id":6,"name":"Carbon","date":"01/May/2021","paymentMode":"Online","status":"pending","orderTotal":"13.00"},
+          {"id":7,"name":"Nitrogen","date":"01/May/2021","paymentMode":"Online","status":"delivered","orderTotal":"133.00"},
+          {"id":8,"name":"Oxygen","date":"01/May/2021","paymentMode":"Online","status":"shipped","orderTotal":"155.00"},
+          {"id":9,"name":"Fluorine","date":"01/May/2021","paymentMode":"Online","status":"pending","orderTotal":"143.00"},
+          {"id":10,"name":"Neon","date":"01/May/2021","paymentMode":"Online","status":"delivered","orderTotal":"1234.00"},
+          {"id":11,"name":"Sodium","date":"01/May/2021","paymentMode":"Online","status":"shipped","orderTotal":"18.00"},
+          {"id":12,"name":"Magnesium","date":"01/May/2021","paymentMode":"Online","status":"pending","orderTotal":"18.00"},
+          {"id":13,"name":"Aluminum","date":"01/May/2021","paymentMode":"Online","status":"delivered","orderTotal":"18.00"},
+          {"id":14,"name":"Silicon","date":"01/May/2021","paymentMode":"Online","status":"shipped","orderTotal":"18.00"},
+          {"id":15,"name":"Phosphorus","date":"01/May/2021","paymentMode":"Online","status":"pending","orderTotal":"18.00"},
+          {"id":16,"name":"Sulfur","date":"01/May/2021","paymentMode":"Online","status":"delivered","orderTotal":"18.00"},
+          {"id":17,"name":"Chlorine","date":"01/May/2021","paymentMode":"Online","status":"shipped","orderTotal":"18.00"},
+          {"id":18,"name":"Argon","date":"01/May/2021","paymentMode":"Online","status":"pending","orderTotal":"18.00"},
+          {"id":19,"name":"Potassium","date":"01/May/2021","paymentMode":"Online","status":"delivered","orderTotal":"18.00"},
+          {"id":20,"name":"Calcium","date":"01/May/2021","paymentMode":"Online","status":"shipped","orderTotal":"18.00"}
+          ],
+    "storedata":
+       [
+          {"color":"purple","title":"Total Sales","icon":"receipt","isIncrease":true,"isCurrency":true,"value":9465,"duration":"since last month","percentValue":53.83},
+          {"color":"orange","title":"Average Order Value","icon":"local_atm","isIncrease":false,"isCurrency":true,"value":465,"duration":"since last month","percentValue":25.44},
+          {"color":"red","title":"Total Order","icon":"shopping_cart","isIncrease":true,"isCurrency":false,"value":243,"duration":"since last month","percentValue":45.65},
+          {"color":"purple","title":"Returning Customers","icon":"person_add","isIncrease":false,"isCurrency":false,"value":35,"duration":"since last month","percentValue":83.61}
+       ],
+    "notes":
+       [
+          {"id":1,"content":"Test Data"},
+          {"id":2,"content":""},
+          {"id":3,"content":""},
+          {"id":4,"content":""}
+       ]
+    }

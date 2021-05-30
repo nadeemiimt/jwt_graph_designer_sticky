@@ -1,0 +1,20 @@
+{
+    "fields":[
+        {
+            "name": "firstname",
+            "validateAs": "string"
+        },
+        {
+            "name": "lastname",
+            "validateAs": "string"
+        },
+        {
+            "name": "age",
+            "validateAs": "number"
+        },
+        {
+            "name": "email",
+            "validateAs": "email"
+        }
+    ]
+}

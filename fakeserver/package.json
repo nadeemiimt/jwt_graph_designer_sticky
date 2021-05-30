@@ -1,0 +1,19 @@
+{
+  "name": "fakeserver",
+  "version": "1.0.0",
+  "description": "Fake server",
+  "main": "main.js",
+  "scripts": {
+    "start": "json-server --watch ./database.json",
+    "start-auth": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nadeem",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "faker": "^5.5.3",
+    "json-server": "^0.16.3",
+    "jsonwebtoken": "^8.5.1"
+  }
+}

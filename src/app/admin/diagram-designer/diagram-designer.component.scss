@@ -1,0 +1,24 @@
+.diagram-container {
+    height: 100%;
+    width: 100%;
+  }
+  .loadForm{
+    margin: 1%;;
+  }
+  .djs-palette-entries{
+    margin-left: -3%;
+  }
+
+  example-headers-align .mat-expansion-panel-header-title,
+.example-headers-align .mat-expansion-panel-header-description {
+  flex-basis: 0;
+}
+
+.example-headers-align .mat-expansion-panel-header-description {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.example-headers-align .mat-form-field + .mat-form-field {
+  margin-left: 8px;
+}
