@@ -7,7 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "preinstall": "cd fakeserver && npm install"
   },
   "private": true,
   "dependencies": {
@@ -35,6 +36,7 @@
     "jwt-decode": "^3.1.2",
     "ng2-charts": "^2.4.2",
     "ngx-toastr": "^13.2.1",
+    "run": "^1.4.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.11.3"
