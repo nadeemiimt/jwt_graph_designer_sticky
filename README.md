@@ -68,3 +68,9 @@ Notes:
 
 # DEMO:
 https://github.com/nadeemiimt/jwt_graph_designer_sticky/blob/master/DiagramStickyDemo.mp4
+
+UI: url: http://localhost:4200
+API URL: http://localhost:8000/api
+Postman Collection: https://www.getpostman.com/collections/329852cd26d7ee43c277
+UserName: iadmin
+Password: iadmin
