@@ -58,3 +58,13 @@ Notes:
 1. Sticky Notes
 2. JSON Server with JWT token implementation
 3. Dashboards
+
+# SETUP:
+- Run "npm install" in root directory.
+- Run "npm run start" (For demo as after some time API will stop)
+- To run API permanently for longer period please run below 2 commands in 2 cmd instances
+  - "cd {Project root directory}\fakeserver & npm run start-auth" 
+  - "cd {Project root directory} & ng serve"
+
+# DEMO:
+https://github.com/nadeemiimt/jwt_graph_designer_sticky/blob/master/DiagramStickyDemo.mp4
